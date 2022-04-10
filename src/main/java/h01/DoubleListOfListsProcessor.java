@@ -16,7 +16,7 @@ public class DoubleListOfListsProcessor {
      * @return a partitioned list of lists
      * @throws RuntimeException if a single value exceeds {@code limit}
      */
-    public static @Nullable ListItem<@Nullable ListItem<Double>> divideListsAsCopyIteratively(
+    public static @Nullable ListItem<@Nullable ListItem<Double>> partitionListsAsCopyIteratively(
         @Nullable ListItem<@Nullable ListItem<Double>> listOfLists,
         double limit
     ) {
@@ -32,7 +32,7 @@ public class DoubleListOfListsProcessor {
      * @return a partitioned list of lists
      * @throws RuntimeException if a single value exceeds {@code limit}
      */
-    public static @Nullable ListItem<@Nullable ListItem<Double>> divideListsAsCopyRecursively(
+    public static @Nullable ListItem<@Nullable ListItem<Double>> partitionListsAsCopyRecursively(
         @Nullable ListItem<@Nullable ListItem<Double>> listOfLists,
         double limit
     ) {
@@ -48,7 +48,7 @@ public class DoubleListOfListsProcessor {
      * @return a partitioned list of lists
      * @throws RuntimeException if a single value exceeds {@code limit}
      */
-    public static @Nullable ListItem<@Nullable ListItem<Double>> divideListsInPlaceIteratively(
+    public static @Nullable ListItem<@Nullable ListItem<Double>> partitionListsInPlaceIteratively(
         @Nullable ListItem<@Nullable ListItem<Double>> listOfLists,
         double limit
     ) {
@@ -64,7 +64,7 @@ public class DoubleListOfListsProcessor {
      * @return a partitioned list of lists
      * @throws RuntimeException if a single value exceeds {@code limit}
      */
-    public static @Nullable ListItem<@Nullable ListItem<Double>> divideListsInPlaceRecursively(
+    public static @Nullable ListItem<@Nullable ListItem<Double>> partitionListsInPlaceRecursively(
         @Nullable ListItem<@Nullable ListItem<Double>> listOfLists,
         double limit
     ) {
