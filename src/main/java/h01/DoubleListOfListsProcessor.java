@@ -1,9 +1,9 @@
 package h01;
 
+import org.jetbrains.annotations.Nullable;
+
 import java.io.BufferedReader;
 import java.io.Writer;
-
-import org.jetbrains.annotations.Nullable;
 
 public class DoubleListOfListsProcessor {
 
